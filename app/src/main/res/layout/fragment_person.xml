@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorgray"
+        android:gravity="center"
+        android:text="@string/me"
+        android:textColor="@android:color/black"
+        android:textSize="25dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_tx"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/tx"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_tx"
+            android:background="@null"
+            android:text="坑货"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_tx"
+            android:layout_toRightOf="@id/iv_tx"
+            android:background="@null"
+            android:text="No Zuo no die "
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:background="#D3D3D3" />
+
+            <Button
+                android:id="@+id/btn_load"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadi"
+                android:visibility="visible"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="8dp"
+                android:background="#D3D3D3" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@mipmap/his1"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/his"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/WhiteSmoke" />
+
+            <TextView
+                android:id="@+id/tv_his"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/sc3"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/sc"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/yj"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/Opinion"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/know"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/newa"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/WhiteSmoke" />
+
+            <TextView
+                android:id="@+id/tv_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/set"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/set"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@mipmap/share1"
+                android:drawableRight="@mipmap/open"
+                android:text="@string/share"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="italic"
+                android:typeface="normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

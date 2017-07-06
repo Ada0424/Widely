@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@mipmap/news"
+        android:title="@string/news"/>
+
+    <item
+        android:id="@+id/navigation_joke"
+        android:icon="@mipmap/joke"
+        android:title="@string/joke"/>
+
+
+    <item
+        android:id="@+id/navigation_picture"
+        android:icon="@mipmap/picture"
+        android:title="@string/pic"/>
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@mipmap/person"
+        android:title="@string/person"/>
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.Android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_col"
+        android:orderInCategory="100"
+        android:title="@string/Collection"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ref"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/Refresh"/>
+    <item
+        android:id="@+id/action_rep"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/Report"/>
+</menu>

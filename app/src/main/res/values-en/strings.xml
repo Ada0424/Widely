@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loginthree">第三方登录</string>
+    <string name="login">请选择以下登录方式</string>
+    <string name="cb_pwd">显示密码</string>
+    <string name="cb_pwds">显示密码</string>
+    <string name="rempwd">记住密码</string>
+    <string name="info">消 息</string>
+    <string name="hisinfo">历史记录</string>
+    <string name="Coll">收 藏</string>
+    <string name="sets">系统设置</string>
+    <string name="other">其他</string>
+    <string name="his">   最近浏览</string>
+    <string name="Opinion">   意见反馈</string>
+    <string name="newa">   最新消息</string>
+    <string name="share">   分享</string>
+    <string name="perwifi">个人热点</string>
+    <string name="more">更多方式</string>
+    <string name="pers">个人</string>
+    <string name="see">显示</string>
+    <string name="lis">声音和震动</string>
+    <string name="manage">应用管理</string>
+    <string name="tong">新消息通知</string>
+    <string name="rao">勿扰模式</string>
+    <string name="Privacy">隐私</string>
+    <string name="currency">通用</string>
+    <string name="safe">账号与安全</string>
+    <string name="Collection">收藏</string>
+    <string name="Refresh">刷新</string>
+    <string name="Report">举报</string>
+    <string name="perinfo">完善信息</string>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="address">地址</string>
+    <string name="commit">提交</string>
+    <string name="Logout">退出登录</string>
+    <string name="update_userinfo_success">更新用户信息成功:</string>
+    <string name="update_userinfo_failed">更新用户信息失败:</string>
+    <string name="auto_login_failed">自动登录失败</string>
+    <string name="auto_login_third_failed">第三方自动登录失败:</string>
+    <string name="checkinfo">请完善您的信息！</string>
+    <string name="upload_photo_success">上传成功</string>
+    <string name="upload_failed">上传文件失败：</string>
+    <string name="select_pic_failed">选择图片失败！</string>
+</resources>
